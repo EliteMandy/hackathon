@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Hack.css">
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="images/AICTE.ico">
+
+</head>
+
+<body>
+    <header>
+
+        <div id="di1" class="flex-container3">
+            <a href="https://twitter.com/AICTE_INDIA?s=20" target="_blank"><img src="images/twitter.png" alt="twitter"
+                    height="35" width="35"></a>
+            <p id="space1"> </p>
+            <a href="https://www.facebook.com/OfficialAICTE/" target="_blank"><img src="images/facebook.png"
+                    alt="Facebook" height="35" width="35"></a>
+            <div id="sh"></div>
+            <!-- Button trigger modal -->
+            <a id="we" href="login1/sign.html"><button type="button" class="btn btn-primary" data-bs-toggle="modal">
+                    SIGNIN
+                </button></a>
+            <a href="register\reg.html"> <button type="button" class="btn btn-primary " data-bs-toggle="modal"
+                    data-bs-target="#staticBack">
+                    Register
+                </button></a>
+
+            <!--login-->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">LOGIN</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                        else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">LOGIN</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!--Sign up-->
+            <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">SIGN-UP</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1"
+                                        aria-describedby="emailHelp">
+                                    <div id="emailHelp" class="form-text">We'll never share your email with anyone
+                                        else.
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                                    <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">SignUp</button>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        </div>
+        </div>
+
+
+
+
+        </div>
+        <!-- <div class="flex-container0">
+            <button type="button" id="mam" onclick="alert('Register')">Register</button>
+            <button type="button" id="mam" onclick="alert('Sign In')">SIGN IN</button>
+        </div> -->
+        <!--national and international and subject button -->
+
+        <div id="di2" class="flex-container5 ">
+            <img id="i2" src="images/logo_new.png" class="img-fluid" width="340px" height="340px" alt="img1">
+            <div id="sh"></div>
+
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                <button class="btn btn-outline-dark me-md-2" btn btn-info id="butt1" type="button"
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop0" id="butt1">National</button>
+                <button class="btn btn-outline-dark" type="button" btn btn-info id="butt1" type="button"
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop12" id="butt1">International</button>
+                <button class="btn btn-outline-dark" type="button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop1" id="butt1">Subjects</button>
+            </div>
+
+
+            <!--<button type="button" class="btn btn-outline-dark btn-sm" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop1">SUBJECT</button>-->
+
+            <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false"
+                tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Subjects</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <!--subject Dropdown-->
+                        <div class="modal-body">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action" id="sub">All</a>
+
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Areospace
+                                    Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Agricultural
+                                    and Food Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Biological
+                                    science and Bioengineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Chemical
+                                    Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Chemical
+                                    Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Civil
+                                    Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Computer
+                                    Science and Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Design
+                                    Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Electrical,Electronic
+                                    and Communication Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Mechanical
+                                    Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Material
+                                    and Minning Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Ocean
+                                    Engineering</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-action"
+                                    id="sub">Textile
+                                    Engineering</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--national pop-up-->
+        <div class="modal fade " id="staticBackdrop0" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">National Institutes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" id="pads"><img src="images/iit delhi.jpg" height="100px" width="120px">
+                            <p>Indian Institue of technology Delhi</p>
+                        </div>
+                        <div class="col"> <img src="images/iit bbsr.png " height="100px" width="120px">
+                            <p>Indian Institue of technology Bhubaneswar</p>
+                        </div>
+                        <div class="col"> <img src="images/iit (ism).png" height="100px" width="120px">
+                            <p>Indian Institue of technology(Indian School Of Mines)</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" id="pads"> <a href="websiteo2\college.html"><img src="images/cgu.jpg"
+                                    height="100px" width="120px"></a>
+                            <p>C.V.Raman Global University Bhubaneswar</p>
+                        </div>
+                        <div class="col"> <img src="images/iit bhu.png" height="100px" width="120px">
+                            <p>Indian Institue of technology(Banaras Hindu University)</p>
+                        </div>
+                        <div class="col"> <img src="images/iit bombay.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Bombay</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" id="pads"> <img src="images/iitdh.png " height="100px" width="120px">
+                            <p>Indian Institue of technology Dharwad</p>
+                        </div>
+                        <div class="col"> <img src="images/iitgn.png " height="100px" width="120px">
+                            <p>Indian Institue of technology Gandhinagar</p>
+                        </div>
+                        <div class="col"> <img src="images/iit goa.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Goa</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" id="pads"> <img src="images/iit guwahati.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Guwahati</p>
+                        </div>
+                        <div class="col"><img src="images/iiti.png " height="100px" width="120px">
+                            <p>Indian Institue of technology Indore</p>
+                        </div>
+                        <div class="col"><img src="images/iitjmu.png " height="100px" width="120px">
+                            <p>Indian Institue of technology Jammu</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" id="pads"><img src="images/iitj.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Jodhpur</p>
+                        </div>
+                        <div class="col"><img src="images/iitk.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Kanpur</p>
+                        </div>
+                        <div class="col"> <img src="images/iitkgp.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Kharagpur</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" id="pads">
+                            <img src="images/iitm.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Madras</p>
+                        </div>
+                        <div class="col"><img src="images/iitmandi.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Mandi</p>
+                        </div>
+                        <div class="col"><img src="images/iitpkd.png " height="100px" width="120px">
+                            <p>Indian Institue of technology Palakkad</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" id="pads"><img src="images/iitp.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Patna</p>
+                        </div>
+                        <div class="col"><img src="images/iitr.png " height="100px" width="120px">
+                            <p>Indian Institue of technology Roorkee</p>
+                        </div>
+                        <div class="col"><img src="images/iitrpr.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Ropar</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" id="pads"> <img src="images/iittp.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Tirupati</p>
+                        </div>
+                        <div class="col"> <img src="images/iit bhilai.png" height="100px" width="120px">
+                            <p>Indian Institue of technology Bhilai</p>
+                        </div>
+                        <div class="col"> <img src="images/SOA.png" height="100px" width="120px">
+                            <p>Siksha 'O' Anusandhan</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col" id="pads"> <img src="images/KIIT.png">
+                            <p>Kalinga Institute of Industrial Technology</p>
+                        </div>
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--Interntional popup-->
+        <div class="modal fade " id="staticBackdrop12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+            aria-labelledby="staticBackdropLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="staticBackdropLabel">International Institutes</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="row">
+                        <div class="col" id="pads"> <img src="images/boston university.png" height="100px"
+                                width="120px">
+                            <p>Boston University</p>
+                        </div>
+                        <div class="col" id="mag"> <img src="images/columbia.png" height="100px" width="120px">
+                            <p>Columbia University</p>
+                        </div>
+                        <div class="col"> <img src="images/hRVARD.png" height="100px" width="120px">
+                            <p>Harvard University</p>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col" id="pads"> <img src="images/duke.png" height="100px" width="120px">
+                            <p>Duke University </p>
+                        </div>
+                        <div class="col"> <img src="images/Stanford_University_seal_2003.svg.png" height="100px"
+                                width="120px">
+                            <p>Standford University</p>
+                        </div>
+                        <div class="col"> <img src="images/MiT USA.jpg" height="100px" width="120px">
+                            <p>MIT</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" id="pads"> <img src="images/imperial college london.png" height="100px"
+                                width="120px">
+                            <p>London University </p>
+                        </div>
+                        <div class="col"> <img src="images/new york.png" height="100px" width="120px">
+                            <p>New York University</p>
+                        </div>
+                        <div class="col"> <img src="images/NUS singapore.png" height="100px" width="120px">
+                            <p>Singapore University</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col" id="pads"> <img src="images/ocean university.png" height="100px" width="120px">
+                            <p>Ocean University</p>
+                        </div>
+                        <div class="col"> <img src="images/university of queensland.png" height="100px" width="120px">
+                            <p>University Of Queensland</p>
+                        </div>
+                        <div class="col"> <img src="images/washington.png" height="100px" width="120px">
+                            <p>Washington University</p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!--Nav bar-->
+        <nav class="navbar sticky-top navbar-expand-lg navbar navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="home1" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <a id="we" href="filter/filter.html"><input class="form-control me-2" type="search"
+                                placeholder="Search" aria-label="Search"></a>
+                        <button class="btn btn-outline-dark" id="btn-color" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!--slider-->
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/MODI.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/azadi75_0.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="images/OR-workshop-Banner.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="space"></div>
+    <section class="container-fluid ">
+        <!--box / scrollng text-->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card shadow p-3 mb-5 bg-body rounded border-info mb-3" style="width: 18rem;">
+                        <h5 class="text-center">Alert</h5>
+                        <marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();"
+                            onmouseout="this.start();" vsapce="10px" direction="up">Lorem ipsum
+                            dolor sit
+                            amet
+                            consectetur adipisicing
+                            elit. Veniam, blanditiis.
+                            <div class="box21"><a href="www.google.com">ipsum dolor sit amet consectetur adipisicing
+                                    elit. Doloremque,
+                                    aperiam.</a> <span class="badge bg-danger">New</span></div>
+                            <div class="box21">Lorem ipsum dolor sit Lorem ipsum dolor </div>
+                            <div class="box21">Lorem ipsum dolor sit amet consectetur adipisicing elit pudiandae.
+                                <span class="badge bg-danger">New</span></div>
+
+                        </marquee>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow p-3 mb-5 bg-body rounded border-info mb-3" style="width: 18rem;">
+                        <h5 class="text-center">Seminars</h5>
+                        <marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();"
+                            onmouseout="this.start();" vsapce="10px" direction="up">
+                            <div>Lorem ipsum
+                                dolor sit
+                                amet
+                                consectetur adipisicing
+                                elit. Veniam, blanditiis.</div>
+                            <div class="box21">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium,
+                                laboriosam!<a href="www.google.com">
+                                    Click Me</a> <span class="badge bg-danger">New</span></div>
+
+                            <div class="box21">Lorem ipsum dolor sit amet consectetur adipisicing elit pudiandae.
+                                <span class="badge bg-danger">New</span></div>
+
+                        </marquee>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow p-3 mb-5 bg-body rounded border-info mb-3" style="width: 18rem;">
+                        <h5 class="text-center">Workshop</h5>
+                        <marquee behavior="scroll" scrollamount="3" onmouseover="this.stop();"
+                            onmouseout="this.start();" vsapce="10px" direction="up">Lorem ipsum
+                            dolor sit
+                            amet
+                            consectetur adipisicing
+                            elit. Veniam, blanditiis.
+                            <div class="box21"><a href="www.google.com">ipsum dolor sit amet consectetur adipisicing
+                                    elit. Doloremque,
+                                    aperiam.</a> <span class="badge bg-danger">New</span></div>
+                            <div class="box21">Lorem ipsum dolor sit Lorem ipsum dolor </div>
+                            <div class="box21">Lorem ipsum dolor sit amet consectetur adipisicing elit pudiandae.
+                                <span class="badge bg-danger">New</span></div>
+
+                        </marquee>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--scrollin text-->
+        <marquee behavior="scroll" direction="left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
+            quisquam?<h6><span class="badge bg-success">New</span></h6> Lorem ipsum, dolor sit amet consectetur
+            adipisicing
+            elit.
+            Itaque, magnam?<span class="badge bg-danger">New</span>
+        </marquee>
+
+    </section>
+
+
+
+
+
+
+    <footer class="text-white">
+        <div class="container-fluid pt-5 pb-5">
+            <div class="row">
+                <div class="col-md-2">
+                    <h1 class="font-weight-bold mt-5 pt-2"></h1>
+
+                </div>
+
+                <div class="col-md-3">
+                    <h4 class="font-weight-bold mb-3" id="Quick">Quick Links</h4>
+                    <hr />
+                    <p class="footer1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+                        aria-controls="offcanvasBottom">
+                        About us</p>
+                    <!--offcanvas about us-->
+
+
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom"
+                        aria-labelledby="offcanvasBottomLabel">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">About Us</h5>
+
+                        </div>
+                        <div class="offcanvas-body small">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptatibus quam
+                            eveniet nesciunt esse cumque hic mollitia laudantium alias quod. Doloremque veritatis
+                            repudiandae cupiditate velit.
+                        </div>
+                    </div>
+                    <p class="footer1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom1"
+                        aria-controls="offcanvasBottom1">
+                        FAQ</p>
+                    <!--offcanvas FAQ-->
+
+
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom1"
+                        aria-labelledby="offcanvasBottomLabel1">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">FAQ</h5>
+
+                        </div>
+                        <div class="offcanvas-body small">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptatibus quam
+                            eveniet nesciunt esse cumque hic mollitia laudantium alias quod. Doloremque veritatis
+                            repudiandae cupiditate velit.
+                        </div>
+                    </div>
+
+                    <p class="footer1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom2"
+                        aria-controls="offcanvasBottom2">Contact Us</p>
+                    <!--offcanvas contact us-->
+
+
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom2"
+                        aria-labelledby="offcanvasBottomLabel2">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Contact Us</h5>
+
+                        </div>
+                        <div class="offcanvas-body small">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptatibus quam
+                            eveniet nesciunt esse cumque hic mollitia laudantium alias quod. Doloremque veritatis
+                            repudiandae cupiditate velit.
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="col-md-3">
+                    <h4 class="font-weight-bold mb-3" id="impt">Important Links</h4>
+                    <hr />
+                    <p class="footer1" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+                        Login/Register</p>
+                    <p class="footer1">Events</p>
+                    <p class="footer1" class="footer1" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom3"
+                        aria-controls="offcanvasBottom3">Copyright Policy</p>
+                    <!--offcanvas copyright policy-->
+
+
+                    <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom3"
+                        aria-labelledby="offcanvasBottomLabel3">
+                        <div class="offcanvas-header">
+                            <h5 class="offcanvas-title" id="offcanvasBottomLabel">Copyright Policy</h5>
+
+                        </div>
+                        <div class="offcanvas-body small">
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam voluptatibus quam
+                            eveniet nesciunt esse cumque hic mollitia laudantium alias quod. Doloremque veritatis
+                            repudiandae cupiditate velit.
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-3">
+                    <div id="di6">
+                        <h4 id="div6">FOLLOW US</h4><br>
+                        <img src="images/logo/pinterest.png" alt="" width="50">
+                        <a href="https://twitter.com/AICTE_INDIA?s=20" target="_blank"><img src="images/twitter.png"
+                                alt="twitter" width="50"></a>
+                        <a href="https://www.youtube.com/c/MediaAICTE" target="_blank"><img
+                                src="images/logo/youtube.png" alt="" width="50"></a>
+                        <a href="https://www.facebook.com/OfficialAICTE/" target="_blank"><img src="images/facebook.png"
+                                alt="Facebook" width="50"></a>
+                        <img src="images/logo/" alt="" width="50">
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+    <!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

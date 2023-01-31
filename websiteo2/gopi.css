@@ -1,0 +1,21 @@
+.flex.continer{
+    display :flex;
+    flex-direction: column;
+}
+.flex.continer>div{
+    height: 60px;
+    background-color: brown;
+}
+.flex-container01{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-items: flex-start;
+}
+#dd1{
+    width: 30%;
+    background-color: azure;
+}
+#d1{
+    background-color: aquamarine;
+}
